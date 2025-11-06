@@ -5,8 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	
-	<version>0.0.2-SNAPSHOT</version> 
+	<version>0.0.1-SNAPSHOT</version> 
 	
 	<name>maven-web-application</name>
 
@@ -22,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.136.25.38:9000/</sonar.host.url> 
+		<sonar.host.url>http://98.94.88.168:9000/</sonar.host.url> 
 		<sonar.login>admin</sonar.login>
-		<sonar.password>Atanga@123456#</sonar.password> 
+		<sonar.password>NiiDjan040791@</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -93,15 +92,15 @@
 	</dependencies>	
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
-	      <name>Africaprocloud Nexus Releases Repository</name>
-	      <url>http://18.118.20.215:8081/repository/maven-releases/</url>
+	      <id>maven-releases</id>
+	      <name>maven-releases</name>
+	      <url>htt://54.163.203.23:8081/repository/maven-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Africaprocloud Nexus Snapshot Repository</name>
-	      <url>http://52.14.86.192:8081/repository/maven-snapshots/</url>
+	      <id>maven-snapshot-standalone</id>
+	      <name>maven-snapshot-standalone</name>
+	      <url>http://54.163.203.23:8081/repository/maven-snapshot-standalone/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
